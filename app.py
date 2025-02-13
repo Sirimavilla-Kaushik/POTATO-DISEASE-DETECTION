@@ -2,7 +2,9 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-
+file_id = "1v64ACt3QX7X1Q_avc02LTfZpLR9T7h7e"
+url = 'https://drive.google.com/uc?id=1v64ACt3QX7X1Q_avc02LTfZpLR9T7h7e'
+model_path = "trained_plant_disease_model.keras"
 # Constants
 CLASS_NAMES = ['Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy']
 IMAGE_SIZE = (128, 128)
